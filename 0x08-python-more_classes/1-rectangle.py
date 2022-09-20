@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 """Module 1-rectangle
-Define
+Defines a Rectangle class.
+"""
+
+
 class Rectangle:
     """Rectangle class defined by width and height."""
 
@@ -46,4 +49,3 @@ class Rectangle:
         if value < 0:
             raise ValueError("height must be >= 0")
         self.__height = value
-
